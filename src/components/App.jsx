@@ -38,7 +38,7 @@ function App({ builderContent }) {
           content={builderContent}
           model="page"
           customComponents={CUSTOM_COMPONENTS}
-          apiKey={'f1a790f8c3204b3b8c5c1795aeac4660'}
+          apiKey={'95acb6d471d24e83a27487f852c986cf'}
         />
       </div>
     </div>

@@ -4,7 +4,7 @@ import Layout from '../components/Layout.astro';
 import { getAllContent, getContent } from '@builder.io/sdk-solid';
 import App from '../components/App'
 
-const API_KEY = 'f1a790f8c3204b3b8c5c1795aeac4660';
+const API_KEY = '95acb6d471d24e83a27487f852c986cf';
 
 const builderContent = await getContent({
   model: 'page',
@@ -18,7 +18,7 @@ export async function getStaticPaths() {
   const allPages = await getAllContent({
     model: 'page',
     // we can't reuse constants outside of `getStaticPaths`, so this is duplicated
-    apiKey: 'f1a790f8c3204b3b8c5c1795aeac4660',
+    apiKey: '95acb6d471d24e83a27487f852c986cf',
     limit: 0
   })
   const paths = allPages.results.map(page => ({
