@@ -9,10 +9,15 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^1.0.0",
-    "prettier-plugin-astro": "^0.7.0"
+    "@astrojs/partytown": "^0.1.2",
+    "@astrojs/solid-js": "^0.1.2",
+    "@astrojs/tailwind": "^0.2.1",
+    "@astrojs/turbolinks": "^0.1.1",
+    "astro": "^1.0.0-beta.40",
+    "solid-js": "1.4.3"
   },
   "dependencies": {
-    "cypress": "^10.0.3"
+    "@builder.io/sdk-solid": "^0.0.21",
+    "solid-styled-components": "^0.27.6"
   }
 }
